@@ -8,6 +8,8 @@ After you finish writing a web page that speesh audio to text, the web-serial co
 -  await port.open({ baudRate: 9600 });
 -  });
 
+![صورة11](https://user-images.githubusercontent.com/109717135/183350969-1665f36b-1a82-4b03-ab5a-800d33296bb2.png)
+
 -To read from a serial port:
 - const textDecoder = new TextDecoderStream();
 - const readableStreamClosed = port.readable.pipeTo(textDecoder.writable);
